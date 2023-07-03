@@ -16,7 +16,7 @@ The control character is calculated by taking each of the eleven-digit number, m
 
 You will find more examples and explanations of the uses of the PESEL are available at the [Ministry of Digital Affairs](https://www.gov.pl/web/gov/czym-jest-numer-pesel).
 
-NB! Please make sure you do not share your own PESEL, for example in the code you use for testing or through the course support channels.
+NB! Please make sure you do not share your own PESEL, for example in the code you use for testing.
 
 Here are some valid PESELs you can use for testing:
 
