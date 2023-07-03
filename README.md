@@ -4,7 +4,7 @@ Polish Personal Identity Code (PESEL) validator
 This program validates Polish Personal Identity Codes (PESEL).
 
 Function is_it_valid(pesel: str) returns True or False based on whether the PESEL given as an argument is valid or not, additionaly indicates its gender. 
-Polish PESELs follow the format yymmddpppk, where *yymmdd* contains the date of birth, including first occurrence of *m* which is the marker for century, *pppp* is the personal identifier where the last occurrence of *p* idicates gender of the person's PESEL, based on wheter the number is even (women) or odd (men), and *k* is a control character.
+Polish PESELs follow the format *yymmddpppk*, where *yymmdd* contains the date of birth, including first occurrence of *m* which is the marker for century, *pppp* is the personal identifier where the last occurrence of *p* idicates gender of the person's PESEL, based on wheter the number is even (women) or odd (men), and *k* is a control character.
 
 The program checks the validity by these criteria:
 -  The length of the PESEL is correct, wheter it consist of numbers only.
