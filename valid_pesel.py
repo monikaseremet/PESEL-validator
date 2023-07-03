@@ -1,6 +1,6 @@
 from datetime import datetime
 
-def is_it_valid(pesel: str) -> bool:
+def is_it_valid(pesel: str) -> bool, str:
     if len(pesel) != 11:
         return False
     
