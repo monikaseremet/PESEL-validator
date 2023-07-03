@@ -11,6 +11,7 @@ The program checks the validity by these criteria:
 -  The first half of the code is a valid, existing date in the format *yymmdd*.
 -  The century marker is either 8 and 9 (1800s), 0 and 1 (1900s) or 2 and 3 (2000s).
 -  The control character is valid.
+  
 The control character is calculated by taking each of the eleven-digit number, multiplying it by its corresponding weight from the string 1-3-7-9-1-3-7-9-1-3. Then the results are added and the ramainder of dividing by 10 is taken. For example, if the result was 63, the remainder of the dividing it by 10 is 3. The control character would be the substarction result of ten and this number.
 
 You will find more examples and explanations of the uses of the PESEL are available at the [Ministry of Difital Affairs](https://www.gov.pl/web/gov/czym-jest-numer-pesel).
