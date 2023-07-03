@@ -14,7 +14,7 @@ The program checks the validity by these criteria:
   
 The control character is calculated by taking each of the eleven-digit number, multiplying it by its corresponding weight from the string 1-3-7-9-1-3-7-9-1-3. Then the results are added and the ramainder of dividing by 10 is taken. For example, if the result was 63, the remainder of the dividing it by 10 is 3. The control character would be the substarction result of ten and this number.
 
-You will find more examples and explanations of the uses of the PESEL are available at the [Ministry of Digital Affairs](https://www.gov.pl/web/gov/czym-jest-numer-pesel).
+More examples and explanations of the uses of the PESEL are available at the [Ministry of Digital Affairs](https://www.gov.pl/web/gov/czym-jest-numer-pesel).
 
 NB! Please make sure you do not share your own PESEL, for example in the code you use for testing.
 
