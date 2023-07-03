@@ -37,10 +37,9 @@ def is_it_valid(pesel: str) -> bool, str:
         control_number += (int(pesel[i]) * numbers_weight[i]) % 10
 
     if int(pesel[-2]) % 2 == 0:
-        sex = 'woman'
+        gender = 'woman'
     else:
-        sex = 'man'
+        gender = 'man'
 
-
-    return (10 - (control_number % 10)) == int(pesel[-1]), sex
+    return (10 - (control_number % 10)) == int(pesel[-1]), gender
 
